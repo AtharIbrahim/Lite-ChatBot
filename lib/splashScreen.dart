@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lite_chatbot/homeScreen.dart';
+import 'homeScreen.dart';
 
 class splashScreen extends StatefulWidget {
   const splashScreen({super.key});
@@ -9,10 +9,12 @@ class splashScreen extends StatefulWidget {
 }
 
 class _splashScreenState extends State<splashScreen> {
-
-  Future<void> movingScreen() async{
+  Future<void> movingScreen() async {
     await Future.delayed(Duration(seconds: 5));
-    Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => homeScreen()));
+    Navigator.pushReplacement(
+      context,
+      MaterialPageRoute(builder: (context) => homeScreen()),
+    );
   }
 
   @override
@@ -21,6 +23,7 @@ class _splashScreenState extends State<splashScreen> {
     super.initState();
     movingScreen();
   }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -28,8 +31,13 @@ class _splashScreenState extends State<splashScreen> {
         child: SizedBox(
           height: double.infinity,
           width: double.infinity,
-          child: Image.asset('assets/images/splashScreen.gif'),
-        )
+          child: Image.asset(
+            'assets/images/splashScreen.gif',
+            width: double.infinity,
+            height: double.infinity,
+            fit: BoxFit.fill,
+          ),
+        ),
       ),
     );
   }

@@ -8,7 +8,7 @@ class homeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blue,
-        title: Text("Home Screen", style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white)),
+        title: Text("Lite ChatBot", style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white)),
         centerTitle: true,
       ),
     );
