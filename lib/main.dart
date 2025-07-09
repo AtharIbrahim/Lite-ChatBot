@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:lite_chatbot/splashScreen.dart';
 import 'Provider/Provider_File.dart';
-import 'homeScreen.dart';
 import 'package:provider/provider.dart';
 
 main() async {
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         ),
-        home: homeScreen(),
+        home: Splashscreen(),
       ),
     );
   }
