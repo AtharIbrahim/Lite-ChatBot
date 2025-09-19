@@ -76,7 +76,7 @@ To get started with this project, follow these steps:
 
 ### 🔐 API Key Safety Tip
 
-**Do not commit your API key** into public repositories. Use `.gitignore` and secure methods to manage your keys. Always **restrict usage** in the OpenAI dashboard.
+**Do not commit your API key** into public repositories. Use `.gitignore` and secure methods to manage your keys. Always **restrict usage** in the OpenAI dashboard..
 
 ---
 
