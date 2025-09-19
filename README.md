@@ -10,7 +10,7 @@
 
 **Lite ChatBot** is a **Flutter-based mobile application** that allows users to engage in real-time conversations with an AI assistant using **OpenAI's GPT API**. The chatbot is designed to be lightweight, responsive, and simple to use for anyone looking for intelligent replies, coding help, or creative assistance.
 
-Perfect for developers, learners, or curious minds — this app serves as a mini assistant right in your pocket.
+Perfect for developers, learners, or curious minds — this app serves as a mini assistant right in your pocket..
 
 It helps you to:
 
